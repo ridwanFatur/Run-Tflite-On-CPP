@@ -3,8 +3,10 @@
 This project demonstrates how to run **TensorFlow Lite** models directly in **C++** using the prebuilt `libtensorflowlite_c.so` library on Linux.  
 It includes two sample implementations:
 
-- Face Detection → Using MediaPipe's face_detection_short_range.tflite model.  
+- Face Detection → Using MediaPipe's `face_detection_short_range.tflite` model.  
 - Object Detection (YOLOv11) → Using Ultralytics YOLOv11 model in TensorFlow Lite format.
+
+## 📂 Project Structure
 
 Run-Tflite-On-CPP/
 ├── cpp_face_detection/
@@ -12,25 +14,25 @@ Run-Tflite-On-CPP/
 │   └── CMakeLists.txt
 │
 ├── cpp_yolo11/
-	  ├── build/        # build output for YOLOv11
-	  └── CMakeLists.txt
+│   ├── build/        # build output for YOLOv11
+│   └── CMakeLists.txt
 
 ## 🚀 Build & Run
 
-1. Clone this repository.
+1. Clone this repository.  
 2. Build the Face Detection example:
 
-   cd cpp_face_detection/build
-   cmake ..
-   make
-   ./main
+   cd cpp_face_detection/build  
+   cmake ..  
+   make  
+   ./main  
 
 3. Build the YOLOv11 example:
 
-   cd cpp_yolo11/build
-   cmake ..
-   make
-   ./main
+   cd cpp_yolo11/build  
+   cmake ..  
+   make  
+   ./main  
 
 ## 📸 Output
 
