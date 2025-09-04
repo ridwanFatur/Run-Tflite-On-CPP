@@ -8,14 +8,16 @@ It includes two sample implementations:
 
 ## 📂 Project Structure
 
+```
 Run-Tflite-On-CPP/
-├── cpp_face_detection/
-│   ├── build/
-│   └── CMakeLists.txt
-├── cpp_yolo11/
-│   ├── build/
-│   └── CMakeLists.txt
-└── README.md
+    cpp_face_detection/
+        build/
+        CMakeLists.txt
+    cpp_yolo11/
+        build/
+        CMakeLists.txt
+    README.md
+```
 
 ## 🚀 Build & Run
 
