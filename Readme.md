@@ -10,12 +10,12 @@ It includes two sample implementations:
 
 Run-Tflite-On-CPP/
 ├── cpp_face_detection/
-│   ├── build/        # build output for face detection
+│   ├── build/
 │   └── CMakeLists.txt
-│
 ├── cpp_yolo11/
-│   ├── build/        # build output for YOLOv11
+│   ├── build/
 │   └── CMakeLists.txt
+└── README.md
 
 ## 🚀 Build & Run
 
